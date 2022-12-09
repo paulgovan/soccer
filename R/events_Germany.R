@@ -1,0 +1,30 @@
+#' German first division events data set
+#'
+#' Events data set for the German first division.
+#'
+#' @source https://doi.org/10.6084/m9.figshare.c.4415000.v5
+#' @format Data frame with columns
+#' \describe{
+#' \item{eventId}{Unique identifier of the event type. Each eventId is tied to
+#' an eventName}
+#' \item{eventName}{The name of the event. Events include pass, foul, shot,
+#' duel, free kick, offside, and touch}
+#' \item{subEventId}{Unique identifier of the subevent type. Each subEventId is
+#' tied to a subEventName}
+#' \item{subEventName}{The name of the subevent.}
+#' \item{tags}{A list of tags describing additional information about an event}
+#' \item{eventSec}{The time when the event occured in seconds since the beginning
+#' of the current half of the match}
+#' \item{id}{Unique identifier of the event}
+#' \item{matchId}{Unique identifier of the match}
+#' \item{matchPeriod}{The period of the match (1H for the first half, 2H for the
+#' second half, E1 for fist extra time, E2 for second extra time, and P for
+#' penalties time)}
+#' \item{playerId}{Unique identifier of the player who generated the event}
+#' \item{positions}{The origin and destination positions associated with the event}
+#' \item{teamId}{Unique identifier of the player's team}
+#' }
+#' @examples
+#'   dim(events_Germany)
+#'   head(events_Germany)
+"events_Germany"

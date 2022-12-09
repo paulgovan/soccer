@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/soccer",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
