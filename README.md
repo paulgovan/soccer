@@ -21,5 +21,12 @@ To install in R:
 devtools::install_github('paulgovan/soccer')
 ```
 
+Examples: 
+
+```S
+head(coaches)
+dim(coaches)
+```
+
 # License
 [Apache](http://www.apache.org/licenses/LICENSE-2.0) licence
