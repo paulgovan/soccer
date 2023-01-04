@@ -4,7 +4,7 @@ Title: Soccer Match Event Datasets
 Version: 0.1.0
 Authors@R: person("Paul", "Govan", email = "pgovan1@aggienetwork.com", 
     role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1821-8492"))
-Description: Soccer match event datasets. For more infomration about the data published here, please visit: https://doi.org/10.6084/m9.figshare.c.4415000.v5.
+Description: Soccer match event datasets. For more infomration about the data, please visit: https://doi.org/10.6084/m9.figshare.c.4415000.v5.
 Depends: R (>= 3.5.0)
 License: Apache License
 Encoding: UTF-8
