@@ -7,8 +7,8 @@ soccer is an R package containing data on soccer match events. For more informat
 # Data
 * `coaches`: Coaches data set
 * `competitions`: Competitions data set
-* `events_<league>`: Events data set for first division leagues
-* `matches_<league>`: Matches data set for first division leagues
+* `events_<league>`: Events data sets for first division leagues
+* `matches_<league>`: Matches data sets for first division leagues
 * `playerank`: Playerank data set
 * `players`: Players data set
 * `teams`: Teams data set
